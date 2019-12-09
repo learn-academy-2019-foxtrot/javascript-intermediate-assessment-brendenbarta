@@ -11,6 +11,14 @@ describe("multTwo", () => {
     })
 })
 
+let friendlyArray = [1,2,3,4,5]
+let newArr = []
+const multTwo = (arr) => {
+  for (let i = 0; i < arr.length; i++)
+  newArr.push(arr[i] *2 )
+  return newArr;
+};
+console.log(multTwo(friendlyArray))
 
 // 2. Write the code that would make this test pass.
 
